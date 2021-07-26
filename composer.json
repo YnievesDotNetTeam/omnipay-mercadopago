@@ -1,0 +1,33 @@
+{
+    "name": "ynievesdotnetteam/omnipay-mercadopago",
+    "type": "library",
+    "description": "MercadoPago gateway for OmniPay",
+    "keywords": [
+        "mercadopago",
+        "mp",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/ynievesdotnetteam/omnipay-mercadopago",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yoinier Hernández Nieves",
+            "email": "me@ynieves.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\MercadoPago\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "^3"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3",
+        "squizlabs/php_codesniffer": "^3"
+    },
+    "prefer-stable": true
+}
